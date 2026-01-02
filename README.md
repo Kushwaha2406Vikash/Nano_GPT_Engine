@@ -51,7 +51,9 @@ LLM/
 │
 ├── .venv/ # Virtual Environment
 ├── pycache/ # Python Cache
-└── .vscode/ # IDE Settings  
+└── .vscode/ # IDE Settings
+
+
 
 ## 🧪 Dataset — Women’s Healthcare QA
 
@@ -74,7 +76,7 @@ Training data is **custom & domain-focused**, including:
 ### API Layer
 - fastapi  
 - uvicorn  
-- starlette  
+
 - pydantic  
 
 ### Additional Libraries (from requirements.txt) 
@@ -85,17 +87,17 @@ Training data is **custom & domain-focused**, including:
 ```bash
 pip install -r requirements.txt
 
-### 2️⃣ Train the Model
+## 2️⃣ Train the Model
 - python train.py
 
-#### This will generate:
+### This will generate:
 
 - tinygpt.pt
 
-### 3️⃣ Run Inference 
+## 3️⃣ Run Inference 
 - python inference_model.py  
 ### 4️⃣ Start API Server
 - uvicorn api.py:app --reload
-#### Open:
+## Open in Browser:
 
 http://127.0.0.1:8000/docs
