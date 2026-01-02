@@ -1,4 +1,4 @@
-# 🧠 Mini Decoder-Transformer LLM — Custom Healthcare QA Model
+# 🧠 Nano_GPT_Engine
 
 A **from-scratch implementation of a Mini Large Language Model (LLM)** built using **PyTorch + Decoder-Only Transformer Architecture**.  
 This project focuses on **understanding and implementing the core mechanics behind word-level next-token prediction**, while training on **custom Women’s Healthcare Question-Answer data** (Pregnancy, Menstruation, Wellness, etc.).
@@ -36,22 +36,7 @@ The goal is **clarity + learning**, not complexity.
 
 ## 📁 Project Structure
 
-LLM/
-│
-├── api.py # FastAPI Endpoint
-├── inference_model.py # Inference Script
-├── train.py # Training Script
-├── transformer_block.py # Decoder Transformer Implementation
-├── tokenizer.model # SentencePiece Model
-├── tokenizer.vocab # Token Vocabulary
-├── tinygpt.pt # Trained Model Weights
-├── data.txt # Custom QA Healthcare Training Data
-├── requirements.txt # Dependencies
-├── .gitignore
-│
-├── .venv/ # Virtual Environment
-├── pycache/ # Python Cache
-└── .vscode/ # IDE Settings
+
 
 
 
