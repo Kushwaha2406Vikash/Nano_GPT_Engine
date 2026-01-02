@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv/
+env/
+venv/
+
+# --- Build / Dist ---
+build/
+dist/
+*.egg-info/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Virtual Environment ---
+/.venv/
+/env/
+/venv/
+
+# --- Model & Training Artifacts ---
+*.pt
+*.bin
+*.ckpt
+*.pth
+
+# --- Tokenizer Artifacts ---
+tokenizer.model
+tokenizer.vocab
+
+# --- Data Files ---
+data.txt
+datasets/
+data/
+
+# --- Cache ---
+.cache/
+wandb/
+runs/
+
+# --- API Keys / Secrets ---
+*.env
+.env.*
+secrets/
